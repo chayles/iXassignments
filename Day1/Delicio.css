@@ -1,0 +1,148 @@
+#title {
+	font-family:cursive;
+	font-size: 30px;
+	font-weight: bolder;
+	text-align: left;
+	color:#331100;
+	float:left;
+}
+#title:hover{
+	color:#b35900;
+}
+#menu{
+	height:.5px;
+}
+.nav {
+	display: inline-block;
+	color:#331100;
+	font-family: sans-serif;
+	font-size: 16.5px;
+	padding: 15px;
+	float:right;
+	background-color:white;
+	background-size: cover;
+}
+.nav:hover{
+	color:#b35900;
+}
+.jumbotron {
+	background: url(http://www.nandos.com/sites/all/themes/nandos/images/restaurants/restaurant-carousel-1.jpg);
+	height:400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	left-margin:auto;
+	right-margin:auto;
+	color: white;
+	margin: 100px 0 0 0;
+}
+#jumbotitle {
+	font-size: 50px;
+	font-family: "Times New Roman";
+	text-align: center;
+	padding-top: 80px;
+}
+#jumbotitle:hover {
+	opacity: .8;
+}
+.line-separator{
+	height:.25px;
+	background:white;
+	border-bottom:.5px solid white;
+	width: 200px;
+	margin: auto;
+}
+#jumbodescription{
+	font-size: 18px;
+	font-family: sans-serif;
+	text-align: center;
+	padding: 20px 75px 0 75px;
+}
+#button{
+	background-color:#e68a00;
+	color:white;
+	height: 95px;
+	width: 250px;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 16px;
+	font-family:sans-serif;
+	position: static;
+	margin-left: auto;
+	margin-right: auto;
+	align:center;
+	text-align:center;
+}
+#button:hover{
+	background-color: white;
+	color:black;
+
+}
+.footer{
+	height: 550px;
+	background-color:#1a1a1a;
+}
+.tableheaders{
+	color:white;
+	font-family:sans-serif;
+	font-size:15px;
+}
+table{
+	padding:50px 25px 0 25px;
+}
+.tabletext{
+	color:grey;
+	font-size:14px;
+	font-family:sans-serif;
+}
+td{
+	width:300px;
+}
+.Social{
+	margin:10px 0 0 0;
+}
+.SM{
+	height:25px;
+	width:25px;
+	border-radius: 100%;
+	display:inline-block;
+}
+.SM:hover{
+	opacity:.8;
+}
+.food{
+	height:70px;
+	width:70px;
+}
+#More{
+	background-color:#333333;
+	border-radius:5px;
+	color:white;
+	font-weight:lighter;
+	padding: 5px 2px 5px 2px;
+	text-align: center;
+}
+#Insta{
+	background-color:#0059b3;
+	color:white;
+	border-radius:5px;
+	color: white;
+	text-decoration: none;
+	font-family:sans-serif;
+	font-weight:lighter;
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+}
+#More:hover{
+	opacity:.9;
+}
+#Insta:hover{
+	opacity:.9;
+}
+.line-again{
+	height:.2px;
+	background:grey;
+	border-bottom:.2px solid grey;
+	width: 1000px;
+	margin: auto;
+	margin-top: 40px;
+}
