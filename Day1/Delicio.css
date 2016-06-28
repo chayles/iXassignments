@@ -25,6 +25,10 @@
 .nav:hover{
 	color:#b35900;
 }
+.nav:visited{
+	color:#331100;
+	text-decoration:none;
+}
 .jumbotron {
 	background: url(http://www.nandos.com/sites/all/themes/nandos/images/restaurants/restaurant-carousel-1.jpg);
 	height:400px;
