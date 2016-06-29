@@ -1,0 +1,54 @@
+*{
+	box-sizing: border-box;
+}
+.container {
+	max-width: 1000px;
+	margin: 50px auto;
+}
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+li{
+	list-style:none;
+	float:left;
+	height: 100px;
+	width:24%;
+	font-family: Helvetica;
+	font-size: 30px;
+	font-weight:bolder;
+	text-align: center;
+	padding-top:30px;
+}
+li:first-child{
+	border:2px solid blue;
+}
+li:nth-child(2){
+	border: 2px solid green;
+}
+li:nth-child(3){
+	border: 2px solid yellow;
+}
+li:nth-child(4){
+	border: 2px solid red;
+}
+
+@media(max-width:769px){
+	li {
+		width:40%;
+	}
+}
+
+@media(max-width:480px){
+	li{
+		width:90%;
+	}
+}
