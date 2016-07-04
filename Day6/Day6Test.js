@@ -86,15 +86,13 @@ function longestPalindrome(sentence) {
 }
 
 function areAnagrams (sentence1, sentence2) {
-    var short1 = sentence1.replace(" ","");
-    var short2 = sentence2.replace(" ","");
-    var split1 = short1.split("");
-    var split2 = short2.split("");
-    var firstarray = split1.sort();
-    var secondarray = split2.sort();
+    var split1 = sentence1.split("");
+    var split2 = sentence2.split("");
+    var firstarray = split1.sort().join('').trim();
+    var secondarray = split2.sort().join('').trim();
     if (firstarray === secondarray){
         return "yes";
     } 
-    return "no"
+    return "no";
 }
 
