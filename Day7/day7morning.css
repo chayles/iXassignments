@@ -1,0 +1,31 @@
+#screen {
+	display:none;
+}
+.lightbox-bg{
+	background-color: rgba(0,0,0,.75);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.lightbox-contents {
+	/* this should center the image on the screen on top of the background*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.lightbox {
+	/* this should not be on the screen to start*/
+	opacity: 0;
+}
+
+.isVisible {
+	/* this does exactly what it sounds like it does */
+	opacity: 1;
+}
+.new-color{
+	color:red;
+}
