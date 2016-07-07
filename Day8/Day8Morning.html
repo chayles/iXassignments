@@ -20,15 +20,19 @@
 
 	<button id="name-btn">Click to show names</button>
 	<button id="color-btn">Click to change color</button>
-	<div ng-click="isVisible=true"><button id="image-btn">Click to show image</button></div>
+	<div ng-click="monkey=true"><button id="image-btn">Click to show image</button></div>
 	
+	<div>Red Team Score: {{rnum}}</div>
+	<button ng-init="rnum=0" id="redScoreUp" ng-click="rnum=rnum+1">Red Scored!</button>
+	<div> Blue Team Score: {{bnum}}</div>
+	<button ng-init="bnum=0" id="blueScoreUp" ng-click="bnum=bnum+1">Blue Scored!</button>
 
 	<!-- when the toggle images button is clicked, a transparent black background should appear with a dog picture centered on top of it. when the background is clicked again, the image and background should go away. -->
-	<div class="lightbox" id="lightbox" ng-show="isVisible">
+	<div class="lightbox" id="lightbox" ng-show="monkey">
 		<div id="image" class="lightbox-contents">
 			<img src="http://www.lovethispic.com/uploaded_images/53451-Cute-Dog.jpg" alt="">
 		</div>
-		<div id="screen" class="lightbox-bg" ng-click="isVisible=false"></div>
+		<div id="screen" class="lightbox-bg" ng-click="monkey=false"></div>
 	</div>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.js"></script>

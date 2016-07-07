@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body ng-app="listApp">
+    <div ng-controller="ListCtrl">
+      <input ng-model="todoName">
+      <input ng-model="dueDate">
+      <button ng-click="addTodo()">Add todo</button>
+      <input placeholder="search" type="text" ng-model="searchBox">
+
+      <ol>
+        
+        <li ng-repeat="todo in todos | filter: searchBox track by $index">
+          {{todo.name}}, {{ todo.dueDate }} <button ng-click="addOne(todo)">+</button><button ng-click="subtractOne(todo)">-</button>
+        </li>
+      </ol>
+      
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.js"></script>
+    <script src="groceryList.js"></script>
+  </body>
+</html>
