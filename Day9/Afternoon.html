@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body ng-app="nytimesApp">
+	
+	<div ng-controller="MainCtrl">
+		<div ng-repeat="a in articles">
+			<h3><a href="{{a.url}}">{{a.title}}</a></h3>
+		</div>
+		<input placeholder="search" type="text" ng-model="searchRequest"><button ng-click="searchReserves()">search</button>
+		
+	</div>	
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.js"></script>
+<script src="Afternoon.js"></script>
+</body>
+</html>
