@@ -1,0 +1,12 @@
+<div>
+	<h1>{{movieInfo.Title}}</h1>
+	<h4>{{movieInfo.Genre}}; {{movieInfo.Rated}}; {{movieInfo.Runtime}}</h4>
+	<img src="{{movieInfo.Poster}}"/>
+	<p>{{movieInfo.Plot}}</p>
+</div>
+<ul ng-repeat="g in gifs">
+	<li>
+		<img src="{{g.images.original.url}}"/>
+	</li>
+</ul>
+
