@@ -1,0 +1,11 @@
+<a ng-href="#/">Write some more props!</a>
+
+<div class="propsTitle"> Your Props! </div>	
+
+	<div ng-repeat=" prop in myProps "> 
+		<p>
+		<div class="receiver"> @{{prop.receiver.first_name}} :</div> 
+		<div class="propText">{{prop.text}}</div>
+		<div class="positivityScore"> Positivity Score: {{prop.positivity_score}}</div>
+		</p>
+	</div>

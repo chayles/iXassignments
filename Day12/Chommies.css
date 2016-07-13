@@ -1,0 +1,79 @@
+.container{
+	max-width: 1200px;
+}
+.navBar{
+	color:white;
+	background-color:#00B275;
+	width:100%;
+	height:75px;
+	font-family: 'Ubuntu';
+	font-variant: small-caps;
+}
+h1{
+	font-weight: bold, 700;
+	margin-left: 20px;
+}
+.navLink {
+	text-decoration: none;
+	color:white;
+	font-weight: medium, 500;
+	float: right;
+	margin-top: 22px;
+	font-size: 24px;
+}
+.navLink:hover{
+	text-decoration: none;
+	opacity: .8;
+	color:white;
+}
+.navLink:visited{
+	text-decoration: none;
+	color:white;
+}
+.receiver{
+	color:#1F434C;
+	font-family: 'Ubuntu';
+	font-size: 15px;
+}
+.propText{
+	color: #1F434C;
+	font-family: 'Dosis';
+	font-weight: lighter, 200;
+	font-size: 18px;
+}
+button{
+	background-color: #E5175E;
+	color: white;
+	font-family: 'Ubuntu';
+	padding: 2px 12px 2px 12px;
+	border-radius: 5px
+}
+ul {
+	list-style: none;
+}
+input{
+	min-width: 60%;
+	height: 25px;
+	font-family:'Dosis';
+	border-radius: 4px;
+}
+.positivityScore{
+	font-family:'Dosis';
+	font-size: 12px;
+	margin-top: 3px;
+}
+.submissions {
+	margin-top: 10px;
+}
+.propsTitle{
+	font-family: 'Ubuntu';
+	font-size: 40px;
+	color: #E5175E;
+	font-weight: bolder, 700;
+	font-variant: small-caps;
+}
+.backButton{
+	color:#1F434C;
+	font-family:'Dosis';
+	text-decoration: none;
+}

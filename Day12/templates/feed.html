@@ -1,0 +1,24 @@
+<div class="container">
+
+	<div ng-show="errorMessage" class="alert alert-danger">
+		{{errorMessage}}
+	</div>
+	<div ng-class="{'isDisabled':isSending}">
+
+	<div class="submissions">
+		<select ng-model="selectedBru" ng-options="bru.id as bru.first_name for bru in brus"></select>
+
+		<input ng-model="newPropsValue">
+
+		<button ng-click="sendProps()">Send Props</button>
+	</div>
+	
+	<div ng-repeat=" prop in props "> 
+		<p>
+		<div class="receiver"> @{{prop.receiver.first_name}} :</div> 
+		<div class="propText">{{prop.text}}</div>
+		<div class="positivityScore"> Positivity Score: {{prop.positivity_score}}</div>
+		</p>
+	</div>
+
+</div>
