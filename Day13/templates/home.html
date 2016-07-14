@@ -1,0 +1,8 @@
+<div> Tension </div>
+<button ng-click="signMeOut()">Sign out</button>
+<div> Select your channel:</div>
+<div ng-repeat="channel in channels">
+	<a href="#/channel/{{channel.$id}}">
+	{{channel.Name}}</a>
+	<p>{{channel.Description}}</p>
+</div>

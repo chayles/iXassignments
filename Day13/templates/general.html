@@ -1,0 +1,4 @@
+<div> Tension </div>
+<input type="text" placeholder="Write your message here" ng-model="newMessage">
+<button ng-click="addMessage()">Send</button>
+<div ng-repeat="message in messages">{{message.user}}: {{message.text}}</div>
